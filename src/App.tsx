@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import UserList from "./UserList";
+import UserList from "./UserList"
 
 function App() {
   const [search, setSearch] = useState<string>("");
